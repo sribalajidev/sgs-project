@@ -5,7 +5,12 @@ $secondary-color: #ff4b4b;
 $white: #fff;
 $bg-light-black: #404040;
 
-
+.bg-white {
+  background: $white;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
 a {
   text-decoration: none;
 }
