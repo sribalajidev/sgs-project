@@ -1,4 +1,3 @@
-import '../../assets/scss/base.scss';
 import '../../assets/scss/components/footer.css';
 
 function Footer() {
