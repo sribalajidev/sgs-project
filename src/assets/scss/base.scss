@@ -1,5 +1,38 @@
+// Color Palette
 $bg-color: #767676;
+$primary-color: #333;
+$secondary-color: #ff4b4b;
+$white: #fff;
+$bg-light-black: #404040;
+
 
 a {
   text-decoration: none;
+}
+
+// Social Icons 
+.social-icons {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 10px 0;
+  margin-left: auto;
+  li {
+    background: $secondary-color;
+    color: #fff;
+    text-align: center;
+    border: 1px solid $secondary-color;
+    transition: all 0.5s ease;
+    min-width: 30px;
+    font-size: 16px;
+    &:hover {
+      background: transparent;
+      color: $secondary-color;
+    }
+    a {
+      color: $white;
+      padding: 5px 8px;
+    }
+  }
 }
