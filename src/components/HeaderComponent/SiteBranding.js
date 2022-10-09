@@ -1,4 +1,5 @@
 import LiveClock from "../LiveClock/LiveClock";
+import SearchBar from "../SearchBar/SearchBar";
 function SiteBranding(){
   return(
     <section class="site-branding-section bg-white">
@@ -11,8 +12,7 @@ function SiteBranding(){
           </div>
           <div class="site-branding-right">
             <div class="control ml-auto">
-              <div class="btn-material"></div>
-              <i class="icon-material-search material-icons fa fa-search"></i>
+             <SearchBar />
             </div>
           </div>
         </div>

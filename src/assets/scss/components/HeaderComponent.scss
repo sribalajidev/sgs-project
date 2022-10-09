@@ -123,3 +123,51 @@
     }
   }
 }
+
+.search-form {
+  input.search-text {
+    color: #222;
+    position:relative;
+    z-index:5;
+    transition: z-index 0.8s, width 0.5s, background 0.3s ease, border 0.3s;
+    height: 45px;
+    width: 0;
+    margin: 0;
+    padding: 5px 40px 5px 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    background: url('../../icons/search-icon.svg') no-repeat right 9px center transparent;
+    background-size:24px;
+    &:focus {
+      z-index:3; 
+      width: 270px;
+      border: 1px solid #666;  
+      background-color: white;
+      outline: none;
+      cursor:auto;
+      padding-right: 10px;
+    }
+  }
+  input.search-submit {
+    position: relative;
+    z-index: 4;
+    top:17px;
+    right: 49px;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    cursor: pointer; 
+    background: none;
+  }
+  input.search-text::-webkit-search-cancel-button {
+    cursor:pointer;
+  }  
+}
