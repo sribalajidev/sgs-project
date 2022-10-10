@@ -2,8 +2,9 @@ import './assets/scss/base.scss';
 
 function App() {
   return (
-    <div className="App">
-        hello world
+    <div className='main-canvas'>
+      <HeaderComponent/>
+      <Footer />
     </div>
   );
 }

@@ -145,8 +145,8 @@
     &:focus {
       z-index:3; 
       width: 270px;
-      border: 1px solid #666;  
-      background-color: white;
+      border: 1px solid $primary-color;  
+      background-color: $white;
       outline: none;
       cursor:auto;
       padding-right: 10px;

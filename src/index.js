@@ -10,15 +10,11 @@ import './assets/scss/base.scss';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Footer from './components/FooterComponent/FooterComponent';
-import HeaderComponent from './components/HeaderComponent/HeaderComponent';
+import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <div className='main-canvas'>
-      <HeaderComponent/>
-      <Footer />
-    </div>
+  <App />
 );
 
