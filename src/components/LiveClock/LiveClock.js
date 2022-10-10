@@ -5,7 +5,7 @@ function LiveClock() {
     setInterval(() => setDateState(new Date()), 30000);
   }, []);
   return (
-    <div class="site-branding-left">
+    <div className="site-branding-left">
       <h3>
         {" "}
         {dateState.toLocaleDateString("en-GB", {
